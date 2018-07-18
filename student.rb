@@ -11,10 +11,7 @@ class Student
     @std_grade = grade
     @std_school = school
     @std_email = email
-    if gpa>0 || gpa <4
-      @std_gpa = gpa
-    else
-      throw new ArgumentError("Invalid GPA")
+    @std_gpa = gpa
   end
 
   # Class variable for student rating
